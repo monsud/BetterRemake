@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C5388F62399410C00FA893A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5388F52399410C00FA893A /* AppDelegate.swift */; };
+		1C5388F82399410C00FA893A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5388F72399410C00FA893A /* SceneDelegate.swift */; };
+		1C5388FA2399410C00FA893A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5388F92399410C00FA893A /* ViewController.swift */; };
+		1C5388FD2399410C00FA893A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C5388FB2399410C00FA893A /* Main.storyboard */; };
+		1C5389002399410C00FA893A /* BetterRemake.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C5388FE2399410C00FA893A /* BetterRemake.xcdatamodeld */; };
+		1C5389022399410E00FA893A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C5389012399410E00FA893A /* Assets.xcassets */; };
+		1C5389052399410E00FA893A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C5389032399410E00FA893A /* LaunchScreen.storyboard */; };
+		1C5389102399410E00FA893A /* BetterRemakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C53890F2399410E00FA893A /* BetterRemakeTests.swift */; };
+		1C53891B2399410E00FA893A /* BetterRemakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C53891A2399410E00FA893A /* BetterRemakeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C53890C2399410E00FA893A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C5388EA2399410C00FA893A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C5388F12399410C00FA893A;
+			remoteInfo = BetterRemake;
+		};
+		1C5389172399410E00FA893A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C5388EA2399410C00FA893A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C5388F12399410C00FA893A;
+			remoteInfo = BetterRemake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C5388F22399410C00FA893A /* BetterRemake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRemake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C5388F52399410C00FA893A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C5388F72399410C00FA893A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1C5388F92399410C00FA893A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C5388FC2399410C00FA893A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C5388FF2399410C00FA893A /* BetterRemake.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BetterRemake.xcdatamodel; sourceTree = "<group>"; };
+		1C5389012399410E00FA893A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C5389042399410E00FA893A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C5389062399410E00FA893A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C53890B2399410E00FA893A /* BetterRemakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRemakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C53890F2399410E00FA893A /* BetterRemakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRemakeTests.swift; sourceTree = "<group>"; };
+		1C5389112399410E00FA893A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C5389162399410E00FA893A /* BetterRemakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRemakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C53891A2399410E00FA893A /* BetterRemakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRemakeUITests.swift; sourceTree = "<group>"; };
+		1C53891C2399410E00FA893A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C5388EF2399410C00FA893A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C5389082399410E00FA893A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C5389132399410E00FA893A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C5388E92399410C00FA893A = {
+			isa = PBXGroup;
+			children = (
+				1C5388F42399410C00FA893A /* BetterRemake */,
+				1C53890E2399410E00FA893A /* BetterRemakeTests */,
+				1C5389192399410E00FA893A /* BetterRemakeUITests */,
+				1C5388F32399410C00FA893A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C5388F32399410C00FA893A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C5388F22399410C00FA893A /* BetterRemake.app */,
+				1C53890B2399410E00FA893A /* BetterRemakeTests.xctest */,
+				1C5389162399410E00FA893A /* BetterRemakeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C5388F42399410C00FA893A /* BetterRemake */ = {
+			isa = PBXGroup;
+			children = (
+				1C5388F52399410C00FA893A /* AppDelegate.swift */,
+				1C5388F72399410C00FA893A /* SceneDelegate.swift */,
+				1C5388F92399410C00FA893A /* ViewController.swift */,
+				1C5388FB2399410C00FA893A /* Main.storyboard */,
+				1C5389012399410E00FA893A /* Assets.xcassets */,
+				1C5389032399410E00FA893A /* LaunchScreen.storyboard */,
+				1C5389062399410E00FA893A /* Info.plist */,
+				1C5388FE2399410C00FA893A /* BetterRemake.xcdatamodeld */,
+			);
+			path = BetterRemake;
+			sourceTree = "<group>";
+		};
+		1C53890E2399410E00FA893A /* BetterRemakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C53890F2399410E00FA893A /* BetterRemakeTests.swift */,
+				1C5389112399410E00FA893A /* Info.plist */,
+			);
+			path = BetterRemakeTests;
+			sourceTree = "<group>";
+		};
+		1C5389192399410E00FA893A /* BetterRemakeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C53891A2399410E00FA893A /* BetterRemakeUITests.swift */,
+				1C53891C2399410E00FA893A /* Info.plist */,
+			);
+			path = BetterRemakeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C5388F12399410C00FA893A /* BetterRemake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C53891F2399410E00FA893A /* Build configuration list for PBXNativeTarget "BetterRemake" */;
+			buildPhases = (
+				1C5388EE2399410C00FA893A /* Sources */,
+				1C5388EF2399410C00FA893A /* Frameworks */,
+				1C5388F02399410C00FA893A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterRemake;
+			productName = BetterRemake;
+			productReference = 1C5388F22399410C00FA893A /* BetterRemake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C53890A2399410E00FA893A /* BetterRemakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C5389222399410E00FA893A /* Build configuration list for PBXNativeTarget "BetterRemakeTests" */;
+			buildPhases = (
+				1C5389072399410E00FA893A /* Sources */,
+				1C5389082399410E00FA893A /* Frameworks */,
+				1C5389092399410E00FA893A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C53890D2399410E00FA893A /* PBXTargetDependency */,
+			);
+			name = BetterRemakeTests;
+			productName = BetterRemakeTests;
+			productReference = 1C53890B2399410E00FA893A /* BetterRemakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C5389152399410E00FA893A /* BetterRemakeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C5389252399410E00FA893A /* Build configuration list for PBXNativeTarget "BetterRemakeUITests" */;
+			buildPhases = (
+				1C5389122399410E00FA893A /* Sources */,
+				1C5389132399410E00FA893A /* Frameworks */,
+				1C5389142399410E00FA893A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C5389182399410E00FA893A /* PBXTargetDependency */,
+			);
+			name = BetterRemakeUITests;
+			productName = BetterRemakeUITests;
+			productReference = 1C5389162399410E00FA893A /* BetterRemakeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C5388EA2399410C00FA893A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = monsud;
+				TargetAttributes = {
+					1C5388F12399410C00FA893A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					1C53890A2399410E00FA893A = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 1C5388F12399410C00FA893A;
+					};
+					1C5389152399410E00FA893A = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 1C5388F12399410C00FA893A;
+					};
+				};
+			};
+			buildConfigurationList = 1C5388ED2399410C00FA893A /* Build configuration list for PBXProject "BetterRemake" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C5388E92399410C00FA893A;
+			productRefGroup = 1C5388F32399410C00FA893A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C5388F12399410C00FA893A /* BetterRemake */,
+				1C53890A2399410E00FA893A /* BetterRemakeTests */,
+				1C5389152399410E00FA893A /* BetterRemakeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C5388F02399410C00FA893A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C5389052399410E00FA893A /* LaunchScreen.storyboard in Resources */,
+				1C5389022399410E00FA893A /* Assets.xcassets in Resources */,
+				1C5388FD2399410C00FA893A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C5389092399410E00FA893A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C5389142399410E00FA893A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C5388EE2399410C00FA893A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C5389002399410C00FA893A /* BetterRemake.xcdatamodeld in Sources */,
+				1C5388FA2399410C00FA893A /* ViewController.swift in Sources */,
+				1C5388F62399410C00FA893A /* AppDelegate.swift in Sources */,
+				1C5388F82399410C00FA893A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C5389072399410E00FA893A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C5389102399410E00FA893A /* BetterRemakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C5389122399410E00FA893A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C53891B2399410E00FA893A /* BetterRemakeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C53890D2399410E00FA893A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C5388F12399410C00FA893A /* BetterRemake */;
+			targetProxy = 1C53890C2399410E00FA893A /* PBXContainerItemProxy */;
+		};
+		1C5389182399410E00FA893A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C5388F12399410C00FA893A /* BetterRemake */;
+			targetProxy = 1C5389172399410E00FA893A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C5388FB2399410C00FA893A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C5388FC2399410C00FA893A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C5389032399410E00FA893A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C5389042399410E00FA893A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C53891D2399410E00FA893A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C53891E2399410E00FA893A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C5389202399410E00FA893A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76QY2KY322;
+				INFOPLIST_FILE = BetterRemake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monsud.BetterRemake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C5389212399410E00FA893A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76QY2KY322;
+				INFOPLIST_FILE = BetterRemake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monsud.BetterRemake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1C5389232399410E00FA893A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76QY2KY322;
+				INFOPLIST_FILE = BetterRemakeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monsud.BetterRemakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterRemake.app/BetterRemake";
+			};
+			name = Debug;
+		};
+		1C5389242399410E00FA893A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76QY2KY322;
+				INFOPLIST_FILE = BetterRemakeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monsud.BetterRemakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterRemake.app/BetterRemake";
+			};
+			name = Release;
+		};
+		1C5389262399410E00FA893A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76QY2KY322;
+				INFOPLIST_FILE = BetterRemakeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monsud.BetterRemakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetterRemake;
+			};
+			name = Debug;
+		};
+		1C5389272399410E00FA893A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76QY2KY322;
+				INFOPLIST_FILE = BetterRemakeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monsud.BetterRemakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetterRemake;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C5388ED2399410C00FA893A /* Build configuration list for PBXProject "BetterRemake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C53891D2399410E00FA893A /* Debug */,
+				1C53891E2399410E00FA893A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C53891F2399410E00FA893A /* Build configuration list for PBXNativeTarget "BetterRemake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C5389202399410E00FA893A /* Debug */,
+				1C5389212399410E00FA893A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C5389222399410E00FA893A /* Build configuration list for PBXNativeTarget "BetterRemakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C5389232399410E00FA893A /* Debug */,
+				1C5389242399410E00FA893A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C5389252399410E00FA893A /* Build configuration list for PBXNativeTarget "BetterRemakeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C5389262399410E00FA893A /* Debug */,
+				1C5389272399410E00FA893A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1C5388FE2399410C00FA893A /* BetterRemake.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1C5388FF2399410C00FA893A /* BetterRemake.xcdatamodel */,
+			);
+			currentVersion = 1C5388FF2399410C00FA893A /* BetterRemake.xcdatamodel */;
+			path = BetterRemake.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1C5388EA2399410C00FA893A /* Project object */;
+}
