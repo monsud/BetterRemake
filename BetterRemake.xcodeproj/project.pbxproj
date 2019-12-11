@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C362BFE23A138FD004F9EB7 /* SegmentedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C362BFD23A138FD004F9EB7 /* SegmentedController.swift */; };
 		1C5388F62399410C00FA893A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5388F52399410C00FA893A /* AppDelegate.swift */; };
 		1C5388F82399410C00FA893A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5388F72399410C00FA893A /* SceneDelegate.swift */; };
-		1C5388FA2399410C00FA893A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5388F92399410C00FA893A /* ViewController.swift */; };
 		1C5388FD2399410C00FA893A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C5388FB2399410C00FA893A /* Main.storyboard */; };
 		1C5389002399410C00FA893A /* BetterRemake.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C5388FE2399410C00FA893A /* BetterRemake.xcdatamodeld */; };
 		1C5389022399410E00FA893A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C5389012399410E00FA893A /* Assets.xcassets */; };
 		1C5389052399410E00FA893A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C5389032399410E00FA893A /* LaunchScreen.storyboard */; };
 		1C5389102399410E00FA893A /* BetterRemakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C53890F2399410E00FA893A /* BetterRemakeTests.swift */; };
 		1C53891B2399410E00FA893A /* BetterRemakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C53891A2399410E00FA893A /* BetterRemakeUITests.swift */; };
+		1C82D0E4239E876400BF533E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C82D0E3239E876400BF533E /* TableViewController.swift */; };
+		1C82D0E6239E92B000BF533E /* SearchBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C82D0E5239E92B000BF533E /* SearchBarCell.swift */; };
+		1C82D0E8239E94D400BF533E /* EventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C82D0E7239E94D300BF533E /* EventsCell.swift */; };
+		1C9A18C3239FE26000FD1E99 /* OddsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9A18C2239FE26000FD1E99 /* OddsAPI.swift */; };
+		1C9A18C5239FE2DA00FD1E99 /* Odds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9A18C4239FE2DA00FD1E99 /* Odds.swift */; };
+		1CA0AC2C23A14CBA00A4257D /* EnterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA0AC2B23A14CBA00A4257D /* EnterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C362BFD23A138FD004F9EB7 /* SegmentedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedController.swift; sourceTree = "<group>"; };
 		1C5388F22399410C00FA893A /* BetterRemake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRemake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C5388F52399410C00FA893A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C5388F72399410C00FA893A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1C5388F92399410C00FA893A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1C5388FC2399410C00FA893A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C5388FF2399410C00FA893A /* BetterRemake.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BetterRemake.xcdatamodel; sourceTree = "<group>"; };
 		1C5389012399410E00FA893A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		1C5389162399410E00FA893A /* BetterRemakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRemakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C53891A2399410E00FA893A /* BetterRemakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRemakeUITests.swift; sourceTree = "<group>"; };
 		1C53891C2399410E00FA893A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C82D0E3239E876400BF533E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1C82D0E5239E92B000BF533E /* SearchBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarCell.swift; sourceTree = "<group>"; };
+		1C82D0E7239E94D300BF533E /* EventsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsCell.swift; sourceTree = "<group>"; };
+		1C9A18C2239FE26000FD1E99 /* OddsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddsAPI.swift; sourceTree = "<group>"; };
+		1C9A18C4239FE2DA00FD1E99 /* Odds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Odds.swift; sourceTree = "<group>"; };
+		1CA0AC2B23A14CBA00A4257D /* EnterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +113,20 @@
 		1C5388F42399410C00FA893A /* BetterRemake */ = {
 			isa = PBXGroup;
 			children = (
+				1C9A18C2239FE26000FD1E99 /* OddsAPI.swift */,
+				1CA0AC2B23A14CBA00A4257D /* EnterCell.swift */,
 				1C5388F52399410C00FA893A /* AppDelegate.swift */,
 				1C5388F72399410C00FA893A /* SceneDelegate.swift */,
-				1C5388F92399410C00FA893A /* ViewController.swift */,
+				1C82D0E3239E876400BF533E /* TableViewController.swift */,
 				1C5388FB2399410C00FA893A /* Main.storyboard */,
+				1C82D0E7239E94D300BF533E /* EventsCell.swift */,
+				1C362BFD23A138FD004F9EB7 /* SegmentedController.swift */,
+				1C82D0E5239E92B000BF533E /* SearchBarCell.swift */,
 				1C5389012399410E00FA893A /* Assets.xcassets */,
 				1C5389032399410E00FA893A /* LaunchScreen.storyboard */,
 				1C5389062399410E00FA893A /* Info.plist */,
 				1C5388FE2399410C00FA893A /* BetterRemake.xcdatamodeld */,
+				1C9A18C4239FE2DA00FD1E99 /* Odds.swift */,
 			);
 			path = BetterRemake;
 			sourceTree = "<group>";
@@ -262,10 +280,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA0AC2C23A14CBA00A4257D /* EnterCell.swift in Sources */,
+				1C9A18C5239FE2DA00FD1E99 /* Odds.swift in Sources */,
+				1C82D0E8239E94D400BF533E /* EventsCell.swift in Sources */,
 				1C5389002399410C00FA893A /* BetterRemake.xcdatamodeld in Sources */,
-				1C5388FA2399410C00FA893A /* ViewController.swift in Sources */,
 				1C5388F62399410C00FA893A /* AppDelegate.swift in Sources */,
+				1C9A18C3239FE26000FD1E99 /* OddsAPI.swift in Sources */,
 				1C5388F82399410C00FA893A /* SceneDelegate.swift in Sources */,
+				1C82D0E6239E92B000BF533E /* SearchBarCell.swift in Sources */,
+				1C362BFE23A138FD004F9EB7 /* SegmentedController.swift in Sources */,
+				1C82D0E4239E876400BF533E /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
