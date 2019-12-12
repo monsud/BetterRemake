@@ -77,8 +77,8 @@ class SegmentedController: UIControl {
             i = i + 1
         }
   
-  let selectorWidth1 = frame.width / CGFloat(buttonTitles.count) - 32
-        selector = UIView(frame: CGRect(x: 23 ,y:31,width: selectorWidth1,height: 2))
+  let selectorWidth1 = frame.width / CGFloat(buttonTitles.count) - 33
+        selector = UIView(frame: CGRect(x: 18 ,y:31,width: selectorWidth1,height: 2))
 
         selector.backgroundColor = selectorColor
         addSubview(selector)
@@ -130,8 +130,8 @@ class SegmentedController: UIControl {
                     
 //                    let selector1 = frame.width / CGFloat(buttons.count) - 60
                     UIView.animate(withDuration: 0.3, animations: {
-                        self.selector.frame.size.width = self.frame.width / CGFloat(self.buttons.count) - 32
-                        self.selector.frame.origin.x = 23
+                        self.selector.frame.size.width = self.frame.width / CGFloat(self.buttons.count) - 33
+                        self.selector.frame.origin.x = 18
                         }
                     )
 //                    self.selector.frame.origin.x = selector1
@@ -142,8 +142,8 @@ class SegmentedController: UIControl {
                 {
                    UIView.animate(withDuration: 0.3, animations: {
                        
-                       self.selector.frame.size.width = self.frame.width / CGFloat(self.buttons.count) - 28
-                       self.selector.frame.origin.x = 115
+                       self.selector.frame.size.width = self.frame.width / CGFloat(self.buttons.count) - 25
+                       self.selector.frame.origin.x = 105
                     }
                    )
                     
@@ -153,8 +153,8 @@ class SegmentedController: UIControl {
                 {
                    UIView.animate(withDuration: 0.3, animations: {
                        
-                       self.selector.frame.size.width = self.frame.width / CGFloat(self.buttons.count) - 35
-                       self.selector.frame.origin.x = 208
+                       self.selector.frame.size.width = self.frame.width / CGFloat(self.buttons.count) - 30
+                       self.selector.frame.origin.x = 200
                    }
                    )
                     
@@ -165,7 +165,7 @@ class SegmentedController: UIControl {
                    UIView.animate(withDuration: 0.3, animations: {
                        
                        self.selector.frame.size.width = self.frame.width / CGFloat(self.buttons.count) - 50
-                       self.selector.frame.origin.x = 290
+                       self.selector.frame.origin.x = 285
                    }
                    )
                     

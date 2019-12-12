@@ -12,6 +12,17 @@ class TableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let decoder: JSONDecoder = JSONDecoder.init()
+        let data = try! Data.init(contentsOf: URL.init(string: "https://api.the-odds-api.com/v3/sports/?apiKey=c93589f944e53ab4e760f8d47bea4c53")!)
+        do {
+            let sports: SportData = try decoder.decode(SportData.self, from: data)
+            print(data)
+            print(sports)
+
+        } catch {
+            print(error)
+        }
+        
         
 //        let navigationBar = navigationController!.navigationBar
         // Uncomment the following line to preserve selection between presentations
@@ -54,6 +65,7 @@ class TableViewController: UITableViewController {
         // Return false if you do not want the specified item to be editable.
         return true
     }
+}
     
 
     /*
@@ -93,4 +105,4 @@ class TableViewController: UITableViewController {
     }
     */
 
-}
+

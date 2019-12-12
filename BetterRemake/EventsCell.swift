@@ -15,6 +15,9 @@ class EventsCell: UITableViewCell {
     @IBOutlet weak var oneButton: UIButton!
     @IBOutlet weak var twoButton: UIButton!
     @IBOutlet weak var xButton: UIButton!
+    @IBOutlet weak var oneOdd: UILabel!
+    @IBOutlet weak var xOdd: UILabel!
+    @IBOutlet weak var twoOdd: UILabel!
     
     @IBOutlet weak var matchTime: UILabel!
     @IBOutlet weak var oneLabel: UILabel!

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C26D13123A263400034561D /* Sports in Resources */ = {isa = PBXBuildFile; fileRef = 1C26D13023A263400034561D /* Sports */; };
+		1C26D13323A264900034561D /* Odds in Resources */ = {isa = PBXBuildFile; fileRef = 1C26D13223A264900034561D /* Odds */; };
 		1C362BFE23A138FD004F9EB7 /* SegmentedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C362BFD23A138FD004F9EB7 /* SegmentedController.swift */; };
 		1C5388F62399410C00FA893A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5388F52399410C00FA893A /* AppDelegate.swift */; };
 		1C5388F82399410C00FA893A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5388F72399410C00FA893A /* SceneDelegate.swift */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C26D13023A263400034561D /* Sports */ = {isa = PBXFileReference; lastKnownFileType = text; path = Sports; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		1C26D13223A264900034561D /* Odds */ = {isa = PBXFileReference; lastKnownFileType = text; path = Odds; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		1C362BFD23A138FD004F9EB7 /* SegmentedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedController.swift; sourceTree = "<group>"; };
 		1C5388F22399410C00FA893A /* BetterRemake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRemake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C5388F52399410C00FA893A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +117,8 @@
 		1C5388F42399410C00FA893A /* BetterRemake */ = {
 			isa = PBXGroup;
 			children = (
+				1C26D13223A264900034561D /* Odds */,
+				1C26D13023A263400034561D /* Sports */,
 				1C9A18C2239FE26000FD1E99 /* OddsAPI.swift */,
 				1CA0AC2B23A14CBA00A4257D /* EnterCell.swift */,
 				1C5388F52399410C00FA893A /* AppDelegate.swift */,
@@ -254,8 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C5389052399410E00FA893A /* LaunchScreen.storyboard in Resources */,
+				1C26D13123A263400034561D /* Sports in Resources */,
 				1C5389022399410E00FA893A /* Assets.xcassets in Resources */,
 				1C5388FD2399410C00FA893A /* Main.storyboard in Resources */,
+				1C26D13323A264900034561D /* Odds in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
